@@ -1,7 +1,8 @@
-function Product() {
+function Product(props) {
+
   return (
     <div>
-      <h1>Producto</h1>
+      <h1>{props.name}</h1>
     </div>
   );
 }
